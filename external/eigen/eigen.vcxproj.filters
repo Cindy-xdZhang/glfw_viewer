@@ -1,0 +1,1644 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="unsupported">
+      <UniqueIdentifier>{e414a2d5-d669-4fcd-8276-068e5b618ea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unsupported\AutoDiff">
+      <UniqueIdentifier>{9633f14e-60d5-4e3c-89e3-12b7b23a8f75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unsupported\BVH">
+      <UniqueIdentifier>{804d5e3f-f05c-4498-a9c8-3f313219f25c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unsupported\Eigenvalues">
+      <UniqueIdentifier>{1c819a79-63c3-4d34-bd12-0d7a770af9d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unsupported\EulerAngles">
+      <UniqueIdentifier>{70deee7e-86f1-46e7-a429-8a0b9dbacfdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unsupported\FFT">
+      <UniqueIdentifier>{d3f60d62-8ba2-4b31-8f1c-8278e5cb8c41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unsupported\IterativeSolvers">
+      <UniqueIdentifier>{7d017459-c43a-4dd7-9303-54ffa5e0cb94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unsupported\KroneckerProduct">
+      <UniqueIdentifier>{821523b1-ce4a-4a90-9868-c7e4497d8c7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unsupported\LevenbergMarquardt">
+      <UniqueIdentifier>{6da15cd8-36bf-435b-8147-d6a98589c7b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unsupported\MatrixFunctions">
+      <UniqueIdentifier>{57c98bb3-e821-4b05-ac6f-88389b0759c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unsupported\MoreVectorization">
+      <UniqueIdentifier>{af044c00-1077-47ff-a3cb-2905c56017b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unsupported\NonLinearOptimization">
+      <UniqueIdentifier>{6cb238fe-d724-479d-b2ff-6afeefbb8969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unsupported\NumericalDiff">
+      <UniqueIdentifier>{2b8d6b71-19db-4096-a5db-3ca3f9ce287c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unsupported\Polynomials">
+      <UniqueIdentifier>{5f42fd18-729e-4583-abfd-d6eb28d440be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unsupported\Skyline">
+      <UniqueIdentifier>{e6d43352-87f1-4191-811d-1c65ed1921fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unsupported\SparseExtra">
+      <UniqueIdentifier>{6e668ade-73be-43d2-9155-757e8dd992ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unsupported\SpecialFunctions">
+      <UniqueIdentifier>{a10e5d03-da25-4abd-805a-54fe7e594f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unsupported\Splines">
+      <UniqueIdentifier>{60827e07-3823-46a7-b9eb-a693086fc740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unsupported\SpecialFunctions\arch">
+      <UniqueIdentifier>{993ee36d-32a8-41e8-a781-bf0479a9c63b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unsupported\SpecialFunctions\arch\CUDA">
+      <UniqueIdentifier>{42e7e18c-ca23-49c1-841b-b0c37f173c61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unsupported\Tensor">
+      <UniqueIdentifier>{12946843-6a21-46ce-9b6e-1f91c8a58245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unsupported\TensorSymmetry">
+      <UniqueIdentifier>{5d77c45d-197c-418b-90ab-64234dec281c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unsupported\ThreadPool">
+      <UniqueIdentifier>{7c9847af-4217-4bda-a9e1-a9c452425b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unsupported\util">
+      <UniqueIdentifier>{049fdebd-cb58-441c-96f6-d8b3f4fea69f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cholesky">
+      <UniqueIdentifier>{c0f88e1b-1e58-490c-94ca-2d4cc55394be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CholmodSupport">
+      <UniqueIdentifier>{b8b21b19-45da-44c0-9e5a-2ea21d31f30b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{cdd150c8-d4c1-47e1-9a01-1c40015883f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Eigenvalues">
+      <UniqueIdentifier>{30eb8d83-28bc-462c-9a86-fe8ad1a30575}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Geometry">
+      <UniqueIdentifier>{53fb3c10-ac80-4379-8838-851d5315f6b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Householder">
+      <UniqueIdentifier>{90d94d91-1936-4f43-bf4d-a8c3f3801c1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IterativeLinearSolvers">
+      <UniqueIdentifier>{750b424e-fd61-44f4-b75c-9bdf08bd3821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Jacobi">
+      <UniqueIdentifier>{c4f016ea-ff94-4c54-838b-df3e357c64af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LU">
+      <UniqueIdentifier>{3a3c69ce-7e6f-4945-a4f6-adc535faa2f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MetisSupport">
+      <UniqueIdentifier>{62d42d35-811d-4c56-8ca7-a0608dbddf6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OrderingMethods">
+      <UniqueIdentifier>{39abf3f2-4196-47a8-8241-a514db65a5d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\misc">
+      <UniqueIdentifier>{8430bef9-69e0-4e9a-a4fd-f7732de0c9ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PardisoSupport">
+      <UniqueIdentifier>{c69ad1d8-bd7f-48a8-b062-6bdc6fafc1e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PaStiXSupport">
+      <UniqueIdentifier>{eac2891a-86af-49ea-8eac-7ae46db1eb16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\plugins">
+      <UniqueIdentifier>{0f8abb6f-6ce0-44fa-aac6-dae1d09fdb52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\QR">
+      <UniqueIdentifier>{c5559bfb-3412-456e-b76e-61980e841f44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SparseCholesky">
+      <UniqueIdentifier>{a7e05d2a-aba3-4a07-9471-c23e0a71ebd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SparseCore">
+      <UniqueIdentifier>{f45e2b20-039d-45f6-8e20-6535ff65bc78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SparseLU">
+      <UniqueIdentifier>{f5805249-83cc-4909-918d-dc0e78175877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SparseQR">
+      <UniqueIdentifier>{6567d46c-0ecf-4a61-bdc6-7e874eccee12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SPQRSupport">
+      <UniqueIdentifier>{b3f245b0-acf3-4f24-b157-023b6d22cbcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StlSupport">
+      <UniqueIdentifier>{928b94ef-bad2-4096-9012-389b7af92473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SuperLUSupport">
+      <UniqueIdentifier>{0d2f50cc-4559-460b-b30f-11ca58af456a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SVD">
+      <UniqueIdentifier>{dd040bb4-b804-49de-9ee2-59fcfd6e081c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UmfPackSupport">
+      <UniqueIdentifier>{5681604b-7a2e-4bdc-b89e-8106f38373b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Geometry\arch">
+      <UniqueIdentifier>{29fb1744-fd27-45a4-b41c-8ecb438b4d46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LU\arch">
+      <UniqueIdentifier>{ed4ae943-0359-4a33-91cd-3ebe04edd1af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\arch">
+      <UniqueIdentifier>{6d21e46a-8a6c-46a3-b72f-13d9ccb3d3a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\functors">
+      <UniqueIdentifier>{af625fff-6fa3-4a0a-84da-b45ceaf53121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\products">
+      <UniqueIdentifier>{fcfb3f25-84b5-4a07-80ff-be20afd398bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\util">
+      <UniqueIdentifier>{2725caa7-73be-47b5-bcef-4a89fa6597a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\arch\AltiVec">
+      <UniqueIdentifier>{6a8afb5f-7ff0-42d9-b4e3-18668a71385a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\arch\AVX">
+      <UniqueIdentifier>{c112491b-37fa-4673-823c-cdb56046b851}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\arch\AVX512">
+      <UniqueIdentifier>{91f21b3b-d04d-416a-a954-39d8488f8737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\arch\CUDA">
+      <UniqueIdentifier>{b0ed1d84-1e4f-4a03-818f-9704d56eb3e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\arch\Default">
+      <UniqueIdentifier>{85ffcd38-7bc1-4ef0-acc8-a7bb3d09a383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\arch\NEON">
+      <UniqueIdentifier>{65550fc5-c9b5-42a0-b70f-dac339bd616b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\arch\SSE">
+      <UniqueIdentifier>{49e809b0-432c-4165-af07-ccd096a4840a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\arch\ZVector">
+      <UniqueIdentifier>{96946c4c-4e09-4d1b-bc14-4463a8a851eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unsupported\TensorSymmetry\util">
+      <UniqueIdentifier>{b372c6e5-c8b8-4b1d-89d6-dca9ff614549}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="COPYING.BSD" />
+    <None Include="COPYING.GPL" />
+    <None Include="COPYING.LGPL" />
+    <None Include="COPYING.MINPACK" />
+    <None Include="COPYING.MPL2" />
+    <None Include="COPYING.README" />
+    <None Include="INSTALL" />
+    <None Include="README.md" />
+    <None Include="Eigen\Cholesky">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Eigen\CholmodSupport">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Eigen\Core">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Eigen\Dense">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Eigen\Eigen">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Eigen\Eigenvalues">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Eigen\Geometry">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Eigen\Householder">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Eigen\IterativeLinearSolvers">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Eigen\Jacobi">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Eigen\LU">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Eigen\MetisSupport">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Eigen\OrderingMethods">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Eigen\PardisoSupport">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Eigen\PaStiXSupport">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Eigen\QR">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Eigen\QtAlignedMalloc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Eigen\Sparse">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Eigen\SparseCholesky">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Eigen\SparseCore">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Eigen\SparseLU">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Eigen\SparseQR">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Eigen\SPQRSupport">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Eigen\StdDeque">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Eigen\StdList">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Eigen\StdVector">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Eigen\SuperLUSupport">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Eigen\SVD">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Eigen\UmfPackSupport">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="unsupported\Eigen\AdolcForward">
+      <Filter>unsupported</Filter>
+    </None>
+    <None Include="unsupported\Eigen\AlignedVector3">
+      <Filter>unsupported</Filter>
+    </None>
+    <None Include="unsupported\Eigen\ArpackSupport">
+      <Filter>unsupported</Filter>
+    </None>
+    <None Include="unsupported\Eigen\AutoDiff">
+      <Filter>unsupported</Filter>
+    </None>
+    <None Include="unsupported\Eigen\BVH">
+      <Filter>unsupported</Filter>
+    </None>
+    <None Include="unsupported\Eigen\EulerAngles">
+      <Filter>unsupported</Filter>
+    </None>
+    <None Include="unsupported\Eigen\FFT">
+      <Filter>unsupported</Filter>
+    </None>
+    <None Include="unsupported\Eigen\IterativeSolvers">
+      <Filter>unsupported</Filter>
+    </None>
+    <None Include="unsupported\Eigen\KroneckerProduct">
+      <Filter>unsupported</Filter>
+    </None>
+    <None Include="unsupported\Eigen\LevenbergMarquardt">
+      <Filter>unsupported</Filter>
+    </None>
+    <None Include="unsupported\Eigen\MatrixFunctions">
+      <Filter>unsupported</Filter>
+    </None>
+    <None Include="unsupported\Eigen\MoreVectorization">
+      <Filter>unsupported</Filter>
+    </None>
+    <None Include="unsupported\Eigen\MPRealSupport">
+      <Filter>unsupported</Filter>
+    </None>
+    <None Include="unsupported\Eigen\NonLinearOptimization">
+      <Filter>unsupported</Filter>
+    </None>
+    <None Include="unsupported\Eigen\NumericalDiff">
+      <Filter>unsupported</Filter>
+    </None>
+    <None Include="unsupported\Eigen\OpenGLSupport">
+      <Filter>unsupported</Filter>
+    </None>
+    <None Include="unsupported\Eigen\Polynomials">
+      <Filter>unsupported</Filter>
+    </None>
+    <None Include="unsupported\Eigen\Skyline">
+      <Filter>unsupported</Filter>
+    </None>
+    <None Include="unsupported\Eigen\SparseExtra">
+      <Filter>unsupported</Filter>
+    </None>
+    <None Include="unsupported\Eigen\SpecialFunctions">
+      <Filter>unsupported</Filter>
+    </None>
+    <None Include="unsupported\Eigen\Splines">
+      <Filter>unsupported</Filter>
+    </None>
+    <None Include="unsupported\Eigen\CXX11\Tensor">
+      <Filter>unsupported</Filter>
+    </None>
+    <None Include="unsupported\Eigen\CXX11\TensorSymmetry">
+      <Filter>unsupported</Filter>
+    </None>
+    <None Include="unsupported\Eigen\CXX11\ThreadPool">
+      <Filter>unsupported</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="unsupported\Eigen\src\AutoDiff\AutoDiffJacobian.h">
+      <Filter>unsupported\AutoDiff</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\AutoDiff\AutoDiffScalar.h">
+      <Filter>unsupported\AutoDiff</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\AutoDiff\AutoDiffVector.h">
+      <Filter>unsupported\AutoDiff</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\BVH\BVAlgorithms.h">
+      <Filter>unsupported\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\BVH\KdBVH.h">
+      <Filter>unsupported\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\Eigenvalues\ArpackSelfAdjointEigenSolver.h">
+      <Filter>unsupported\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\EulerAngles\EulerAngles.h">
+      <Filter>unsupported\EulerAngles</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\EulerAngles\EulerSystem.h">
+      <Filter>unsupported\EulerAngles</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\FFT\ei_fftw_impl.h">
+      <Filter>unsupported\FFT</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\FFT\ei_kissfft_impl.h">
+      <Filter>unsupported\FFT</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\IterativeSolvers\ConstrainedConjGrad.h">
+      <Filter>unsupported\IterativeSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\IterativeSolvers\DGMRES.h">
+      <Filter>unsupported\IterativeSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\IterativeSolvers\GMRES.h">
+      <Filter>unsupported\IterativeSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\IterativeSolvers\IncompleteLU.h">
+      <Filter>unsupported\IterativeSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\IterativeSolvers\IterationController.h">
+      <Filter>unsupported\IterativeSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\IterativeSolvers\MINRES.h">
+      <Filter>unsupported\IterativeSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\IterativeSolvers\Scaling.h">
+      <Filter>unsupported\IterativeSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\KroneckerProduct\KroneckerTensorProduct.h">
+      <Filter>unsupported\KroneckerProduct</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\LevenbergMarquardt\LevenbergMarquardt.h">
+      <Filter>unsupported\LevenbergMarquardt</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\LevenbergMarquardt\LMcovar.h">
+      <Filter>unsupported\LevenbergMarquardt</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\LevenbergMarquardt\LMonestep.h">
+      <Filter>unsupported\LevenbergMarquardt</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\LevenbergMarquardt\LMpar.h">
+      <Filter>unsupported\LevenbergMarquardt</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\LevenbergMarquardt\LMqrsolv.h">
+      <Filter>unsupported\LevenbergMarquardt</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\MatrixFunctions\MatrixExponential.h">
+      <Filter>unsupported\MatrixFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\MatrixFunctions\MatrixFunction.h">
+      <Filter>unsupported\MatrixFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\MatrixFunctions\MatrixLogarithm.h">
+      <Filter>unsupported\MatrixFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\MatrixFunctions\MatrixPower.h">
+      <Filter>unsupported\MatrixFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\MatrixFunctions\MatrixSquareRoot.h">
+      <Filter>unsupported\MatrixFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\MatrixFunctions\StemFunction.h">
+      <Filter>unsupported\MatrixFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\MoreVectorization\MathFunctions.h">
+      <Filter>unsupported\MoreVectorization</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\NonLinearOptimization\chkder.h">
+      <Filter>unsupported\NonLinearOptimization</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\NonLinearOptimization\covar.h">
+      <Filter>unsupported\NonLinearOptimization</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\NonLinearOptimization\dogleg.h">
+      <Filter>unsupported\NonLinearOptimization</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\NonLinearOptimization\fdjac1.h">
+      <Filter>unsupported\NonLinearOptimization</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\NonLinearOptimization\HybridNonLinearSolver.h">
+      <Filter>unsupported\NonLinearOptimization</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\NonLinearOptimization\LevenbergMarquardt.h">
+      <Filter>unsupported\NonLinearOptimization</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\NonLinearOptimization\lmpar.h">
+      <Filter>unsupported\NonLinearOptimization</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\NonLinearOptimization\qrsolv.h">
+      <Filter>unsupported\NonLinearOptimization</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\NonLinearOptimization\r1mpyq.h">
+      <Filter>unsupported\NonLinearOptimization</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\NonLinearOptimization\r1updt.h">
+      <Filter>unsupported\NonLinearOptimization</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\NonLinearOptimization\rwupdt.h">
+      <Filter>unsupported\NonLinearOptimization</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\NumericalDiff\NumericalDiff.h">
+      <Filter>unsupported\NumericalDiff</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\Polynomials\Companion.h">
+      <Filter>unsupported\Polynomials</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\Polynomials\PolynomialSolver.h">
+      <Filter>unsupported\Polynomials</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\Polynomials\PolynomialUtils.h">
+      <Filter>unsupported\Polynomials</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\Skyline\SkylineInplaceLU.h">
+      <Filter>unsupported\Skyline</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\Skyline\SkylineMatrix.h">
+      <Filter>unsupported\Skyline</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\Skyline\SkylineMatrixBase.h">
+      <Filter>unsupported\Skyline</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\Skyline\SkylineProduct.h">
+      <Filter>unsupported\Skyline</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\Skyline\SkylineStorage.h">
+      <Filter>unsupported\Skyline</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\Skyline\SkylineUtil.h">
+      <Filter>unsupported\Skyline</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\SparseExtra\BlockOfDynamicSparseMatrix.h">
+      <Filter>unsupported\SparseExtra</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\SparseExtra\BlockSparseMatrix.h">
+      <Filter>unsupported\SparseExtra</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\SparseExtra\DynamicSparseMatrix.h">
+      <Filter>unsupported\SparseExtra</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\SparseExtra\MarketIO.h">
+      <Filter>unsupported\SparseExtra</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\SparseExtra\MatrixMarketIterator.h">
+      <Filter>unsupported\SparseExtra</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\SparseExtra\RandomSetter.h">
+      <Filter>unsupported\SparseExtra</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\SpecialFunctions\SpecialFunctionsArrayAPI.h">
+      <Filter>unsupported\SpecialFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\SpecialFunctions\SpecialFunctionsFunctors.h">
+      <Filter>unsupported\SpecialFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\SpecialFunctions\SpecialFunctionsHalf.h">
+      <Filter>unsupported\SpecialFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\SpecialFunctions\SpecialFunctionsImpl.h">
+      <Filter>unsupported\SpecialFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\SpecialFunctions\SpecialFunctionsPacketMath.h">
+      <Filter>unsupported\SpecialFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\Splines\Spline.h">
+      <Filter>unsupported\Splines</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\Splines\SplineFitting.h">
+      <Filter>unsupported\Splines</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\Splines\SplineFwd.h">
+      <Filter>unsupported\Splines</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\src\SpecialFunctions\arch\CUDA\CudaSpecialFunctions.h">
+      <Filter>unsupported\SpecialFunctions\arch\CUDA</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\Tensor.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorArgMax.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorAssign.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorBase.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorBroadcasting.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorChipping.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorConcatenation.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorContraction.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorContractionBlocking.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorContractionCuda.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorContractionMapper.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorContractionThreadPool.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorConversion.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorConvolution.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorCostModel.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorCustomOp.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorDevice.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorDeviceCuda.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorDeviceDefault.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorDeviceSycl.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorDeviceThreadPool.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorDimensionList.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorDimensions.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorEvalTo.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorEvaluator.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorExecutor.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorExpr.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorFFT.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorFixedSize.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorForcedEval.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorForwardDeclarations.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorFunctors.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorGenerator.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorGlobalFunctions.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorImagePatch.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorIndexList.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorInflation.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorInitializer.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorIntDiv.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorIO.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorLayoutSwap.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorMacros.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorMap.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorMeta.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorMorphing.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorPadding.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorPatch.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorRandom.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorReduction.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorReductionCuda.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorReductionSycl.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorRef.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorReverse.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorScan.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorShuffling.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorStorage.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorStriding.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorSycl.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorSyclConvertToDeviceExpression.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorSyclExprConstructor.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorSyclExtractAccessor.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorSyclExtractFunctors.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorSyclLeafCount.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorSyclPlaceHolderExpr.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorSyclRun.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorSyclTuple.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorTraits.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorUInt128.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\Tensor\TensorVolumePatch.h">
+      <Filter>unsupported\Tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\TensorSymmetry\DynamicSymmetry.h">
+      <Filter>unsupported\TensorSymmetry</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\TensorSymmetry\StaticSymmetry.h">
+      <Filter>unsupported\TensorSymmetry</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\TensorSymmetry\Symmetry.h">
+      <Filter>unsupported\TensorSymmetry</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\TensorSymmetry\util\TemplateGroupTheory.h">
+      <Filter>unsupported\TensorSymmetry\util</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\ThreadPool\EventCount.h">
+      <Filter>unsupported\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\ThreadPool\NonBlockingThreadPool.h">
+      <Filter>unsupported\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\ThreadPool\RunQueue.h">
+      <Filter>unsupported\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\ThreadPool\SimpleThreadPool.h">
+      <Filter>unsupported\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\ThreadPool\ThreadEnvironment.h">
+      <Filter>unsupported\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\ThreadPool\ThreadLocal.h">
+      <Filter>unsupported\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\ThreadPool\ThreadPoolInterface.h">
+      <Filter>unsupported\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\ThreadPool\ThreadYield.h">
+      <Filter>unsupported\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\util\CXX11Meta.h">
+      <Filter>unsupported\util</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\util\CXX11Workarounds.h">
+      <Filter>unsupported\util</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\util\EmulateArray.h">
+      <Filter>unsupported\util</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\util\EmulateCXX11Meta.h">
+      <Filter>unsupported\util</Filter>
+    </ClInclude>
+    <ClInclude Include="unsupported\Eigen\CXX11\src\util\MaxSizeVector.h">
+      <Filter>unsupported\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Cholesky\LDLT.h">
+      <Filter>Header Files\Cholesky</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Cholesky\LLT.h">
+      <Filter>Header Files\Cholesky</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Cholesky\LLT_LAPACKE.h">
+      <Filter>Header Files\Cholesky</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\CholmodSupport\CholmodSupport.h">
+      <Filter>Header Files\CholmodSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\Array.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\ArrayBase.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\ArrayWrapper.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\Assign.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\Assign_MKL.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\AssignEvaluator.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\BandMatrix.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\Block.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\BooleanRedux.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\CommaInitializer.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\ConditionEstimator.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\CoreEvaluators.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\CoreIterators.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\CwiseBinaryOp.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\CwiseNullaryOp.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\CwiseTernaryOp.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\CwiseUnaryOp.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\CwiseUnaryView.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\DenseBase.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\DenseCoeffsBase.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\DenseStorage.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\Diagonal.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\DiagonalMatrix.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\DiagonalProduct.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\Dot.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\EigenBase.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\ForceAlignedAccess.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\Fuzzy.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\GeneralProduct.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\GenericPacketMath.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\GlobalFunctions.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\Inverse.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\IO.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\Map.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\MapBase.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\MathFunctions.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\MathFunctionsImpl.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\Matrix.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\MatrixBase.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\NestByValue.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\NoAlias.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\NumTraits.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\PermutationMatrix.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\PlainObjectBase.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\Product.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\ProductEvaluators.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\Random.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\Redux.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\Ref.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\Replicate.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\ReturnByValue.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\Reverse.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\Select.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\SelfAdjointView.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\SelfCwiseBinaryOp.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\Solve.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\SolverBase.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\SolveTriangular.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\StableNorm.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\Stride.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\Swap.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\Transpose.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\Transpositions.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\TriangularMatrix.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\VectorBlock.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\VectorwiseOp.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\Visitor.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\util\BlasUtil.h">
+      <Filter>Header Files\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\util\Constants.h">
+      <Filter>Header Files\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\util\DisableStupidWarnings.h">
+      <Filter>Header Files\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\util\ForwardDeclarations.h">
+      <Filter>Header Files\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\util\Macros.h">
+      <Filter>Header Files\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\util\Memory.h">
+      <Filter>Header Files\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\util\Meta.h">
+      <Filter>Header Files\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\util\MKL_support.h">
+      <Filter>Header Files\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\util\NonMPL2.h">
+      <Filter>Header Files\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\util\ReenableStupidWarnings.h">
+      <Filter>Header Files\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\util\StaticAssert.h">
+      <Filter>Header Files\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\util\XprHelper.h">
+      <Filter>Header Files\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\products\GeneralBlockPanelKernel.h">
+      <Filter>Header Files\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\products\GeneralMatrixMatrix.h">
+      <Filter>Header Files\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\products\GeneralMatrixMatrix_BLAS.h">
+      <Filter>Header Files\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\products\GeneralMatrixMatrixTriangular.h">
+      <Filter>Header Files\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\products\GeneralMatrixMatrixTriangular_BLAS.h">
+      <Filter>Header Files\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\products\GeneralMatrixVector.h">
+      <Filter>Header Files\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\products\GeneralMatrixVector_BLAS.h">
+      <Filter>Header Files\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\products\Parallelizer.h">
+      <Filter>Header Files\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\products\SelfadjointMatrixMatrix.h">
+      <Filter>Header Files\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\products\SelfadjointMatrixMatrix_BLAS.h">
+      <Filter>Header Files\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\products\SelfadjointMatrixVector.h">
+      <Filter>Header Files\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\products\SelfadjointMatrixVector_BLAS.h">
+      <Filter>Header Files\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\products\SelfadjointProduct.h">
+      <Filter>Header Files\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\products\SelfadjointRank2Update.h">
+      <Filter>Header Files\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\products\TriangularMatrixMatrix.h">
+      <Filter>Header Files\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\products\TriangularMatrixMatrix_BLAS.h">
+      <Filter>Header Files\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\products\TriangularMatrixVector.h">
+      <Filter>Header Files\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\products\TriangularMatrixVector_BLAS.h">
+      <Filter>Header Files\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\products\TriangularSolverMatrix.h">
+      <Filter>Header Files\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\products\TriangularSolverMatrix_BLAS.h">
+      <Filter>Header Files\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\products\TriangularSolverVector.h">
+      <Filter>Header Files\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\functors\AssignmentFunctors.h">
+      <Filter>Header Files\Core\functors</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\functors\BinaryFunctors.h">
+      <Filter>Header Files\Core\functors</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\functors\NullaryFunctors.h">
+      <Filter>Header Files\Core\functors</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\functors\StlFunctors.h">
+      <Filter>Header Files\Core\functors</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\functors\TernaryFunctors.h">
+      <Filter>Header Files\Core\functors</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\functors\UnaryFunctors.h">
+      <Filter>Header Files\Core\functors</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\arch\AltiVec\Complex.h">
+      <Filter>Header Files\Core\arch\AltiVec</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\arch\AltiVec\MathFunctions.h">
+      <Filter>Header Files\Core\arch\AltiVec</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\arch\AltiVec\PacketMath.h">
+      <Filter>Header Files\Core\arch\AltiVec</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\arch\AVX\Complex.h">
+      <Filter>Header Files\Core\arch\AVX</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\arch\AVX\MathFunctions.h">
+      <Filter>Header Files\Core\arch\AVX</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\arch\AVX\PacketMath.h">
+      <Filter>Header Files\Core\arch\AVX</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\arch\AVX\TypeCasting.h">
+      <Filter>Header Files\Core\arch\AVX</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\arch\AVX512\MathFunctions.h">
+      <Filter>Header Files\Core\arch\AVX512</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\arch\AVX512\PacketMath.h">
+      <Filter>Header Files\Core\arch\AVX512</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\arch\CUDA\Complex.h">
+      <Filter>Header Files\Core\arch\CUDA</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\arch\CUDA\Half.h">
+      <Filter>Header Files\Core\arch\CUDA</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\arch\CUDA\MathFunctions.h">
+      <Filter>Header Files\Core\arch\CUDA</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\arch\CUDA\PacketMath.h">
+      <Filter>Header Files\Core\arch\CUDA</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\arch\CUDA\PacketMathHalf.h">
+      <Filter>Header Files\Core\arch\CUDA</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\arch\CUDA\TypeCasting.h">
+      <Filter>Header Files\Core\arch\CUDA</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\arch\Default\ConjHelper.h">
+      <Filter>Header Files\Core\arch\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\arch\Default\Settings.h">
+      <Filter>Header Files\Core\arch\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\arch\NEON\Complex.h">
+      <Filter>Header Files\Core\arch\NEON</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\arch\NEON\MathFunctions.h">
+      <Filter>Header Files\Core\arch\NEON</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\arch\NEON\PacketMath.h">
+      <Filter>Header Files\Core\arch\NEON</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\arch\SSE\Complex.h">
+      <Filter>Header Files\Core\arch\SSE</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\arch\SSE\MathFunctions.h">
+      <Filter>Header Files\Core\arch\SSE</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\arch\SSE\PacketMath.h">
+      <Filter>Header Files\Core\arch\SSE</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\arch\SSE\TypeCasting.h">
+      <Filter>Header Files\Core\arch\SSE</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\arch\ZVector\Complex.h">
+      <Filter>Header Files\Core\arch\ZVector</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\arch\ZVector\MathFunctions.h">
+      <Filter>Header Files\Core\arch\ZVector</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Core\arch\ZVector\PacketMath.h">
+      <Filter>Header Files\Core\arch\ZVector</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Eigenvalues\ComplexEigenSolver.h">
+      <Filter>Header Files\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Eigenvalues\ComplexSchur.h">
+      <Filter>Header Files\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Eigenvalues\ComplexSchur_LAPACKE.h">
+      <Filter>Header Files\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Eigenvalues\EigenSolver.h">
+      <Filter>Header Files\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Eigenvalues\GeneralizedEigenSolver.h">
+      <Filter>Header Files\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Eigenvalues\GeneralizedSelfAdjointEigenSolver.h">
+      <Filter>Header Files\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Eigenvalues\HessenbergDecomposition.h">
+      <Filter>Header Files\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Eigenvalues\MatrixBaseEigenvalues.h">
+      <Filter>Header Files\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Eigenvalues\RealQZ.h">
+      <Filter>Header Files\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Eigenvalues\RealSchur.h">
+      <Filter>Header Files\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Eigenvalues\RealSchur_LAPACKE.h">
+      <Filter>Header Files\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Eigenvalues\SelfAdjointEigenSolver.h">
+      <Filter>Header Files\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Eigenvalues\SelfAdjointEigenSolver_LAPACKE.h">
+      <Filter>Header Files\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Eigenvalues\Tridiagonalization.h">
+      <Filter>Header Files\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Geometry\AlignedBox.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Geometry\AngleAxis.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Geometry\EulerAngles.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Geometry\Homogeneous.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Geometry\Hyperplane.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Geometry\OrthoMethods.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Geometry\ParametrizedLine.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Geometry\Quaternion.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Geometry\Rotation2D.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Geometry\RotationBase.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Geometry\Scaling.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Geometry\Transform.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Geometry\Translation.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Geometry\Umeyama.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Geometry\arch\Geometry_SSE.h">
+      <Filter>Header Files\Geometry\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Householder\BlockHouseholder.h">
+      <Filter>Header Files\Householder</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Householder\Householder.h">
+      <Filter>Header Files\Householder</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Householder\HouseholderSequence.h">
+      <Filter>Header Files\Householder</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\IterativeLinearSolvers\BasicPreconditioners.h">
+      <Filter>Header Files\IterativeLinearSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\IterativeLinearSolvers\BiCGSTAB.h">
+      <Filter>Header Files\IterativeLinearSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\IterativeLinearSolvers\ConjugateGradient.h">
+      <Filter>Header Files\IterativeLinearSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\IterativeLinearSolvers\IncompleteCholesky.h">
+      <Filter>Header Files\IterativeLinearSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\IterativeLinearSolvers\IncompleteLUT.h">
+      <Filter>Header Files\IterativeLinearSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\IterativeLinearSolvers\IterativeSolverBase.h">
+      <Filter>Header Files\IterativeLinearSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\IterativeLinearSolvers\LeastSquareConjugateGradient.h">
+      <Filter>Header Files\IterativeLinearSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\IterativeLinearSolvers\SolveWithGuess.h">
+      <Filter>Header Files\IterativeLinearSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\Jacobi\Jacobi.h">
+      <Filter>Header Files\Jacobi</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\LU\Determinant.h">
+      <Filter>Header Files\LU</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\LU\FullPivLU.h">
+      <Filter>Header Files\LU</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\LU\InverseImpl.h">
+      <Filter>Header Files\LU</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\LU\PartialPivLU.h">
+      <Filter>Header Files\LU</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\LU\PartialPivLU_LAPACKE.h">
+      <Filter>Header Files\LU</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\LU\arch\Inverse_SSE.h">
+      <Filter>Header Files\LU\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\MetisSupport\MetisSupport.h">
+      <Filter>Header Files\MetisSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\misc\blas.h">
+      <Filter>Header Files\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\misc\Image.h">
+      <Filter>Header Files\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\misc\Kernel.h">
+      <Filter>Header Files\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\misc\lapack.h">
+      <Filter>Header Files\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\misc\lapacke.h">
+      <Filter>Header Files\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\misc\lapacke_mangling.h">
+      <Filter>Header Files\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\misc\RealSvd2x2.h">
+      <Filter>Header Files\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\OrderingMethods\Amd.h">
+      <Filter>Header Files\OrderingMethods</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\OrderingMethods\Eigen_Colamd.h">
+      <Filter>Header Files\OrderingMethods</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\OrderingMethods\Ordering.h">
+      <Filter>Header Files\OrderingMethods</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\PardisoSupport\PardisoSupport.h">
+      <Filter>Header Files\PardisoSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\PaStiXSupport\PaStiXSupport.h">
+      <Filter>Header Files\PaStiXSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\plugins\ArrayCwiseBinaryOps.h">
+      <Filter>Header Files\plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\plugins\ArrayCwiseUnaryOps.h">
+      <Filter>Header Files\plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\plugins\BlockMethods.h">
+      <Filter>Header Files\plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\plugins\CommonCwiseBinaryOps.h">
+      <Filter>Header Files\plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\plugins\CommonCwiseUnaryOps.h">
+      <Filter>Header Files\plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\plugins\MatrixCwiseBinaryOps.h">
+      <Filter>Header Files\plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\plugins\MatrixCwiseUnaryOps.h">
+      <Filter>Header Files\plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\QR\ColPivHouseholderQR.h">
+      <Filter>Header Files\QR</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\QR\ColPivHouseholderQR_LAPACKE.h">
+      <Filter>Header Files\QR</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\QR\CompleteOrthogonalDecomposition.h">
+      <Filter>Header Files\QR</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\QR\FullPivHouseholderQR.h">
+      <Filter>Header Files\QR</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\QR\HouseholderQR.h">
+      <Filter>Header Files\QR</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\QR\HouseholderQR_LAPACKE.h">
+      <Filter>Header Files\QR</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseCholesky\SimplicialCholesky.h">
+      <Filter>Header Files\SparseCholesky</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseCholesky\SimplicialCholesky_impl.h">
+      <Filter>Header Files\SparseCholesky</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseCore\AmbiVector.h">
+      <Filter>Header Files\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseCore\CompressedStorage.h">
+      <Filter>Header Files\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseCore\ConservativeSparseSparseProduct.h">
+      <Filter>Header Files\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseCore\MappedSparseMatrix.h">
+      <Filter>Header Files\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseCore\SparseAssign.h">
+      <Filter>Header Files\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseCore\SparseBlock.h">
+      <Filter>Header Files\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseCore\SparseColEtree.h">
+      <Filter>Header Files\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseCore\SparseCompressedBase.h">
+      <Filter>Header Files\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseCore\SparseCwiseBinaryOp.h">
+      <Filter>Header Files\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseCore\SparseCwiseUnaryOp.h">
+      <Filter>Header Files\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseCore\SparseDenseProduct.h">
+      <Filter>Header Files\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseCore\SparseDiagonalProduct.h">
+      <Filter>Header Files\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseCore\SparseDot.h">
+      <Filter>Header Files\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseCore\SparseFuzzy.h">
+      <Filter>Header Files\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseCore\SparseMap.h">
+      <Filter>Header Files\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseCore\SparseMatrix.h">
+      <Filter>Header Files\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseCore\SparseMatrixBase.h">
+      <Filter>Header Files\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseCore\SparsePermutation.h">
+      <Filter>Header Files\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseCore\SparseProduct.h">
+      <Filter>Header Files\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseCore\SparseRedux.h">
+      <Filter>Header Files\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseCore\SparseRef.h">
+      <Filter>Header Files\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseCore\SparseSelfAdjointView.h">
+      <Filter>Header Files\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseCore\SparseSolverBase.h">
+      <Filter>Header Files\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseCore\SparseSparseProductWithPruning.h">
+      <Filter>Header Files\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseCore\SparseTranspose.h">
+      <Filter>Header Files\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseCore\SparseTriangularView.h">
+      <Filter>Header Files\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseCore\SparseUtil.h">
+      <Filter>Header Files\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseCore\SparseVector.h">
+      <Filter>Header Files\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseCore\SparseView.h">
+      <Filter>Header Files\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseCore\TriangularSolver.h">
+      <Filter>Header Files\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseLU\SparseLU.h">
+      <Filter>Header Files\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseLU\SparseLU_column_bmod.h">
+      <Filter>Header Files\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseLU\SparseLU_column_dfs.h">
+      <Filter>Header Files\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseLU\SparseLU_copy_to_ucol.h">
+      <Filter>Header Files\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseLU\SparseLU_gemm_kernel.h">
+      <Filter>Header Files\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseLU\SparseLU_heap_relax_snode.h">
+      <Filter>Header Files\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseLU\SparseLU_kernel_bmod.h">
+      <Filter>Header Files\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseLU\SparseLU_Memory.h">
+      <Filter>Header Files\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseLU\SparseLU_panel_bmod.h">
+      <Filter>Header Files\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseLU\SparseLU_panel_dfs.h">
+      <Filter>Header Files\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseLU\SparseLU_pivotL.h">
+      <Filter>Header Files\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseLU\SparseLU_pruneL.h">
+      <Filter>Header Files\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseLU\SparseLU_relax_snode.h">
+      <Filter>Header Files\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseLU\SparseLU_Structs.h">
+      <Filter>Header Files\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseLU\SparseLU_SupernodalMatrix.h">
+      <Filter>Header Files\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseLU\SparseLU_Utils.h">
+      <Filter>Header Files\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseLU\SparseLUImpl.h">
+      <Filter>Header Files\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SparseQR\SparseQR.h">
+      <Filter>Header Files\SparseQR</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SPQRSupport\SuiteSparseQRSupport.h">
+      <Filter>Header Files\SPQRSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\StlSupport\details.h">
+      <Filter>Header Files\StlSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\StlSupport\StdDeque.h">
+      <Filter>Header Files\StlSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\StlSupport\StdList.h">
+      <Filter>Header Files\StlSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\StlSupport\StdVector.h">
+      <Filter>Header Files\StlSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SuperLUSupport\SuperLUSupport.h">
+      <Filter>Header Files\SuperLUSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SVD\BDCSVD.h">
+      <Filter>Header Files\SVD</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SVD\JacobiSVD.h">
+      <Filter>Header Files\SVD</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SVD\JacobiSVD_LAPACKE.h">
+      <Filter>Header Files\SVD</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SVD\SVDBase.h">
+      <Filter>Header Files\SVD</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\SVD\UpperBidiagonalization.h">
+      <Filter>Header Files\SVD</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen\src\UmfPackSupport\UmfPackSupport.h">
+      <Filter>Header Files\UmfPackSupport</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/Users/zhanx0o/Documents/sources/Software-Renderer/external/glfw/tests/CMakeLists.txt
+  glfwinfo.c
+  getopt.c
+  glad_gl.c
+  glad_vulkan.c
+  Generating Code...
+  glfwinfo.vcxproj -> C:\Users\zhanx0o\Documents\sources\Software-Renderer\external\glfw\tests\Debug\glfwinfo.exe

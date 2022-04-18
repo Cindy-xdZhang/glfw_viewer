@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Users/zhanx0o/Documents/sources/Software-Renderer/external/glfw/tests/CMakeLists.txt
+  msaa.c
+  getopt.c
+  glad_gl.c
+  Generating Code...
+  msaa.vcxproj -> C:\Users\zhanx0o\Documents\sources\Software-Renderer\external\glfw\tests\Debug\msaa.exe
